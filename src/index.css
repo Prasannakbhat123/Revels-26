@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-serif: 'Cormorant Infant', serif;
+  --font-family-sans: system-ui, -apple-system, sans-serif;
+  
+  --font-serif: var(--font-family-serif);
+}
+
+body {
+  background-color: #F9F9F7;
+}
+
+html {
+  background-color: #F9F9F7;
+}
+
+.scallop {
+  width: 44px;
+  height: 44px;
+  background: #fffdfb;
+  border-radius: 9999px;
+  margin-right: -22px;
+}

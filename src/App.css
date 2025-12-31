@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+.scalloped-strip {
+  mask-image: radial-gradient(
+    circle 22px at right center,
+    transparent 98%,
+    black 100%
+  );
+  mask-size: 44px 88px;
+  mask-repeat: repeat-y;
+  mask-position: right top;
+}
+
