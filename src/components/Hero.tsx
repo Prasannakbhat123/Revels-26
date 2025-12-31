@@ -1,4 +1,4 @@
-import bgImage from '/assets/bg.png'
+import bgImage from '/assets/bg.avif'
 import logoImage from '/assets/good-logo.svg'
 import CategoriesSlider from './CategoriesSlider'
 
